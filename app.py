@@ -5,7 +5,7 @@ import time
 import re
 from datetime import datetime
 
-st.title("REGO Transaction Finder")
+st.title("REGO Tracker")
 
 col1, col2 = st.columns(2)
 with col1:
