@@ -7,6 +7,15 @@ from datetime import datetime
 
 st.title("REGO Tracker")
 
+st.markdown(
+    """
+    📊 **Data Source:** [Access REGO Certificate Data](https://shared.outlook.inky.com/link?domain=ofgemcloud.sharepoint.com&t=h.eJxVj01PhDAYhP_KhrPb0vLVkhgXCQd1vZms8WLY8lJYoGVLu7ga_7uwN5M5TSbzzPx4zvReuvEaa8cpxVjXEgbRa1ehqSkNjLpVFgk94LRO8YSL97dtrofBqVaUttUqmyawi3_6ZH55Ppls3Hezscw8fR_86fFQKPnxnLVuyF_0Pg6K169szh7g3p-jIo-8u43XrXwFVhtZWxJTP2AEN2AugKSDRWonpdqCAiOvtymkLAXjcS3iMKQsohD4gvKw4kkUHKmgmCQRoZxHnCAW-CGNkxUEK8gsPXN57AGBOrvWXHe3y0jqC3LdGqvW2D_z9w_RlF6m.MEQCIEOqRai7glaEL2pCevL9l0C6I0fzbrxh8TzrRkzXXREFAiAMDq2CSLS_m2zkP5VnuAUaLDHvTnNCuOVvWE-WScap3g)
+    """,
+    unsafe_allow_html=True
+)
+
+st.markdown("---")
+
 col1, col2 = st.columns(2)
 with col1:
     old_file = st.file_uploader("Previous Report", type=["csv"], key="old")
