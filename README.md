@@ -1,6 +1,6 @@
 # REGO Transaction Finder
 
-🔗 **Live App**: [rego-tracker.streamlit.app](https://rego-tracker.streamlit.app)
+**Live App**: [rego-tracker.streamlit.app](https://rego-tracker.streamlit.app)
 
 A web application for analyzing REGO (Renewable Energy Guarantees of Origin) certificate transactions in the UK carbon credit market.
 
